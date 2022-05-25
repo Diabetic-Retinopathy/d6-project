@@ -20,18 +20,26 @@ A GUI based system has been made using Tkinter and used heidiSQL to maintain and
 | Frontend development | Tkinter (Python GUI toolkit) |
 | Database connectivity | HeidiSQL (MySQL server) |
 | Programming Languages | Python, SQL |
-| API | Twilio cloud API|      
+    
 
 
 # Resnet152 model summary :     
 I have only shown below the main layers of resnet and each of the 'layer1', 'layer2', 'layer3' and 'layer4' contains various more layers.        
 [https://www.kaggle.com/datasets/pytorch/resnet152]
+
 # Getting started :
-
-
+Step 1:     Collection of dataset images where images are trained and classified as (0 - No   
+                DR ,1- Mild DR,2 - Moderate DR, 3 - Severe DR, 4 - Proliferative DR)
+Step 2:     Image is uploaded by user
+Step 3:     Image is converted from BGR format into RGB format
+Step 4:     Image is cropped 
+Step 5:     After cropping the image, it is converted into gray scale to resize the
+                image and detect the type of stage
+Step 6:     Image is classified and output is predicted which is displayed to the user based     
+                 on the stage level  (0 - No DR ,1- Mild DR , 2 - Moderate DR ,3 - Severe DR ,  
+                 4 - Proliferative  DR)
 # Some snaps :     
 In screenshots file     
-
 
  # Future Prospect :    
  * our next goal is to develop this into WebApp (probably using some light weight model as resnet models are heavy).   
