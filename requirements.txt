@@ -1,28 +1,4 @@
 
-notebook==6.4.1
-matplotlib==3.0.2-done
-numpy==1.16.4-done
-pandas==0.23.4-done
-Pillow>=7.1.0-done
-Anaconda==done
-sql-connectore==done
-
-scikit-learn==0.21.2-done-doubt
-
-python-dateutil==2.7.5-done
-python-decouple==3.1-done
-python-engineio==3.11.1-done
-python-slugify==3.0.4-done
-python-socketio==2.0.0-done-doubt
-
-torch==1.1.0 - done
-torchvision==0.3.0 - done
-
-pip install twilio - twilio
-pylance - pip install fable-library - done
-reportMissingImports	Diagnostics for imports that have no corresponding imported python file or type stub file.
-
-
 matplotlib==3.0.2
 notebook==6.4.10
 numpy==1.21.0
