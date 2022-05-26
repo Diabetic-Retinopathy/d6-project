@@ -45,5 +45,5 @@ In screenshots file
  * our next goal is to develop this into WebApp (probably using some light weight model as resnet models are heavy).   
  * Next goal will be using encryption techniques to achieve not only high accuracy but also high level of privacy in terms of differentially private basis and use technqiues such as Federated learning and Secure Multi party computation for privacy preserving deep learning classification.
   
-       
+#Demo Video : https://youtu.be/0zQx9NhpUh4       
      
